@@ -1,0 +1,131 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.nav-header{
+    position:relative;
+    left:40%;
+    height:50px;
+    margin:13px;
+}
+.gmail, .imagenes, .Iniciar_sesion{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin:3px;
+}
+a{
+    text-decoration: none;
+}
+.Iniciar_sesion{
+    border:1px solid #4285f4;
+    background:#4285f4;
+    color:white;
+    display:inline-block;
+    padding:0 11px;
+    border-radius:2px;
+    font-weight: bold;
+}
+body{
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main-container{
+    display:block;
+
+    
+}
+.logo{
+    
+    display:flex;
+    justify-content:center;
+}
+.logo img{
+   display:flex;
+   justify-content:center;
+   width:350px;
+   position:relative;
+   top:70px;
+   
+}
+.container_barSearch{
+    position:relative;
+    top:70px;
+}
+.caja{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.busqueda{
+    width:300px;
+    height:40px;
+    border:none;
+    background-color:#e3eae8;
+    border-radius:4.5px;
+}
+.botones{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin:3px;
+    border:2px;
+    
+    
+}
+.buscar{
+    margin:7px;
+    border:none;
+
+
+}
+.suerte{
+    margin:7px;
+    border:none;
+}
+.footer{
+    display:block;
+    position:relative;
+    top:275px;
+    
+}
+.menu-country {
+    background-color:#f2f2f2;
+    height: 40px;
+    font-size:15px;
+    margin:10px;
+}
+.menu-country p{
+    position:relative;
+    top:12.5px;
+    padding-left:27px;
+}
+
+.menu-footer{
+    background-color:#f2f2f2;
+    font-size:15px;
+    height:40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.menu-left{
+display:inline-block;
+background-color:#f2f2f2;
+padding-left:27px;
+
+}
+.menu-left a{
+    margin:3px
+}
+.menu-right{
+    display:inline-block;
+    position:relative;
+    left:550px;
+    background-color:#f2f2f2;
+    padding-right:27px;
+}
+.meu-right a{
+margin:3px;
+}
+
+
