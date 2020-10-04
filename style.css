@@ -7,19 +7,23 @@ body{
     font-size:13px;
     font-family:Arial, Helvetica, sans-serif;
 }
+header{
+    width:100%;
+}
 .nav-header{
-    position:fixed;
-    left:80%;
+    position:absolute;
+    left:78%;
     height:50px;
     margin:13px;
-   
-}
+   }
+   .icon-apps img{
+       width:15px;
+   }
 .gmail, .imagenes, .Iniciar_sesion{
     color:black;
     font-family:Arial, Helvetica, sans-serif;
     font-size:13px;
-    margin:3px;
-  
+    margin:3px; 
 }
 a{
     text-decoration: none;
@@ -33,11 +37,8 @@ a{
     border-radius:2px;
     font-weight: bold;
 }
-
 .main-container{
-    display:block;
-
-    
+    display:block;   
 }
 .logo{
     display:flex;
@@ -72,15 +73,11 @@ a{
     justify-content:center;
     align-content:center;
     margin:3px;
-    border:2px;
-    
-    
+    border:2px;  
 }
 .buscar{
     margin:7px;
     border:none;
-
-
 }
 .suerte{
     margin:7px;
@@ -89,8 +86,7 @@ a{
 .footer{
     display:block;
     position:relative;
-    top:275px;
-    
+    top:275px;  
 }
 .menu-country {
     height: 40px;
@@ -104,10 +100,8 @@ a{
     background-color:#f2f2f2;
     font-size:16px;
     position:relative;
-    top:12.5px;
-    
+    top:12.5px;  
 }
-
 .menu-footer{
     background-color:#f2f2f2;
     font-size:15px;
@@ -116,8 +110,7 @@ a{
     width:100%;
     position:relative;
     top:75px;
-    height: 40px;
-   
+    height: 40px; 
 }
 .menu-left{
 display:inline-block;
@@ -125,7 +118,6 @@ background-color:#f2f2f2;
 padding-left:27px;
 position:relative;
 top:12.5px;
-
 }
 .menu-left a{
     margin:3px;
