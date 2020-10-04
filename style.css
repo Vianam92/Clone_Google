@@ -12,30 +12,32 @@ header{
 }
 .nav-header{
     position:absolute;
-    left:78%;
-    height:50px;
-    margin:13px;
+    left:85%;
+    height:28px;
+    margin:10px;
    }
-   .icon-apps img{
-       width:15px;
-   }
-.gmail, .imagenes, .Iniciar_sesion{
+  
+.gmail, .imagenes{
     color:black;
     font-family:Arial, Helvetica, sans-serif;
     font-size:13px;
     margin:3px; 
 }
+.icon-apps img{
+    width:18px;
+    position:relative;
+    top:3px;
+    left:5px;
+}
 a{
     text-decoration: none;
 }
-.Iniciar_sesion{
-    border:1px solid #4285f4;
-    background:#4285f4;
-    color:white;
-    display:inline-block;
-    padding:0 11px;
-    border-radius:2px;
-    font-weight: bold;
+.Iniciar_sesion img{
+    width:25px;
+    border-radius:9.5px;
+    position:relative;
+    top:5px;
+    left:10px; 
 }
 .main-container{
     display:block;   
@@ -50,7 +52,6 @@ a{
    width:350px;
    position:relative;
    top:150px;
-   
 }
 .container_barSearch{
     position:relative;
