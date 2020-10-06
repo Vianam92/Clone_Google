@@ -40,54 +40,97 @@ a{
     left:10px; 
 }
 .main-container{
-    display:block;   
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    position:relative;
+    top:150px;   
 }
 .logo{
     display:flex;
     justify-content:center;
+    align-items:center;
 }
 .logo img{
    display:flex;
    justify-content:center;
    width:350px;
-   position:relative;
-   top:150px;
+   
 }
 .container_barSearch{
-    position:relative;
-    top:150px;
-}
-.caja{
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-direction:column;
+}
+.caja{
+   display:inline-block;
+    width:525px;
+    border-radius:100px;
+    border:1px solid #dfe1e5;
 }
 .busqueda{
-    width:300px;
+    width:450px;
     height:40px;
     border:none;
-    background-color:#e3eae8;
-    border-radius:4.5px;
+    outline:none;
+   
+}
+.caja:hover{
+    box-shadow:0 1px 6px 0 #20212447;
+    background-color:#dfe1e500;
+}
+.search-icon img{
+    width:14px;
+    height:13px;
+    display:inline-block;
+    margin-left:12px;
+}
+.micro-icon img{
+    width:24px;
+    height:24px;
+    vertical-align:middle;
 }
 .botones{
     display:flex;
     justify-content:center;
     align-content:center;
-    margin:3px;
-    border:2px;  
+    width:500px;
+    height: 40px;
+    margin:18px;
+    
+}
+.botones:hover{
+    background-color:#f2f2f2;
+    color:#5F6368;
+    box-shadow:0 1px 1px rgba(0,0,0,0);
 }
 .buscar{
-    margin:7px;
-    border:none;
+    border:1px solid #f2f2f2;  
+    background-color:#f2f2f2;
+    box-shadow:1px 1px rgba(0,0,0,0);
+    margin-top:10px;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:14px;
+    width:150px;
+    height: 20px;
 }
 .suerte{
-    margin:7px;
-    border:none;
+    border:1px solid #f2f2f2;  
+    background-color:#f2f2f2;
+    box-shadow:1px 1px rgba(0,0,0,0);
+    margin-top:10px;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:14px;
+    width:150px;
+    height: 20px;
 }
 .footer{
     display:block;
     position:relative;
-    top:275px;  
+    top:220px;  
 }
 .menu-country {
     height: 40px;
