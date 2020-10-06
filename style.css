@@ -164,18 +164,20 @@ position:relative;
 top:12.5px;
 }
 .menu-left a{
-    margin:3px;
+    margin:10px;
+    columns: #5f5f5f;
 }
 .menu-right{
     display:inline-block;
     position:relative;
-    left:550px;
+    left:500px;
     top:12.5px;
     background-color:#f2f2f2;
     padding-right:27px;
 }
 .meu-right a{
-margin:3px;
+margin:10px;
+    columns: #5f5f5f;
 }
 
 
